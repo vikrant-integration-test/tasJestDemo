@@ -1,4 +1,4 @@
-const getAboutUsLink = require("./index");
+const getAboutUsLink = require("../main/index");
 
 //For code coverage ;jest --coverage //CTRL+SHIFT+P if running test using jest extension
 
