@@ -9,6 +9,7 @@
   "author": "Himanshi",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^27.3.1",
     "mocha": "^9.1.2"
   }
 }
