@@ -1,5 +1,5 @@
 ---
-framework: jest                  # Mention the testing framework mocha or jest
+framework: "jest"
 postMerge:
   pattern:
     - "./src/*.test.js"
@@ -7,7 +7,7 @@ preMerge:
   pattern:
     - "./src/*.test.js"
 preRun:
-  - npm install                   # Mention pre-run steps here
+  - npm ci
 postRun:
-  - node --version                # Mention post-run steps here
+  - echo 'Done'
 version: 2.0
