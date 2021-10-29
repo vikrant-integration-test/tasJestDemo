@@ -11,5 +11,5 @@ preMerge:
 preRun:
   - npm ci
 postRun:
-  - echo 'Done'
+  - echo 'dhdehhd'
 version: 2.0
