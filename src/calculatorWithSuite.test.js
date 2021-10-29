@@ -9,13 +9,13 @@ describe('Test Language code', function () {
         expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
     });
 
-    it("Fail case for english language", () => {
-        expect(getAboutUsLink("en-Uws")).toBe("/about-us");
-    });
+    // it("Fail case for english language", () => {
+    //     expect(getAboutUsLink("en-Uws")).toBe("/about-us");
+    // });
 
-    it("Fail case for spanish", () => {
-        expect(getAboutUsLink("es-ES")).toBe("/acerca-dedddd");
-    });
+    // it("Fail case for spanish", () => {
+    //     expect(getAboutUsLink("es-ES")).toBe("/acerca-dedddd");
+    // });
 
     it("Returns meist for estonian language", () => {
         expect(getAboutUsLink("et")).toBe("/meist");
@@ -25,7 +25,7 @@ describe('Test Language code', function () {
         expect(getAboutUsLink("cs")).toBe("/o nás");
     });
 
-    it("Fail czech language", () => {
-        expect(getAboutUsLink("cs")).toBe("/o nas");
-    });
+    // it("Fail czech language", () => {
+    //     expect(getAboutUsLink("cs")).toBe("/o nas");
+    // });
 });
