@@ -3,9 +3,11 @@ framework: "jest"
 postMerge:
   pattern:
     - "./src/*.test.js"
+    - "./src/random.test.js"
 preMerge:
   pattern:
     - "./src/*.test.js"
+    - "./src/random.test.js"
 preRun:
   - npm i
 postRun:
