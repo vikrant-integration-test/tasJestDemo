@@ -1,5 +1,7 @@
 ---
 framework: "jest"
+blocklist:
+    - './src/arith.test.js##2 + 3 = 5'    #Mention tests to be blacklisted
 postMerge:
   pattern:
     - "./src/*.test.js"
