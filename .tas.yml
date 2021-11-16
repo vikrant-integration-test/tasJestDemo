@@ -1,7 +1,7 @@
 ---
 framework: "jest"
-# blocklist:
-#   - "src/arith.test.js##2 + 3 = 5"
+blocklist:
+  - "src/arith.test.js##2 + 3 = 5"
 postMerge:
   pattern:
     - "./src/*.test.js"
