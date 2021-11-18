@@ -4,6 +4,7 @@ postMerge:
     pattern:
     - "./src/*.test.js"            # Glob pattern to path where tests that should run post-merge are written
 preMerge:
+    pattern:
     - "./src/*.test.js"              # Glob pattern to path where tests that should run pre-merge are written
 preRun:
     - npm install                   # Mention pre-run steps here
