@@ -24,4 +24,15 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(false);
     });
+
+
+    test('3<2 should return true', () => {
+        // arrange and act
+        var result = comparisionOperation.less(3, 2)
+
+        // assert
+        expect(result).toBe(false);
+    });
+
+ 
 })
