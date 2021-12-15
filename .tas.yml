@@ -1,7 +1,7 @@
 ---
 framework: jest                  # Mention the testing framework mocha or jest
-blacklist:
-  - "src/calculatorWithSuite.test.js##Test Language code"
+blocklist:
+  - "./src/calculatorWithSuite.test.js##Test Language code"
 postMerge:
     pattern:
     - "./src/*.test.js"            # Glob pattern to path where tests that should run post-merge are written
