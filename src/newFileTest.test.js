@@ -1,0 +1,27 @@
+const comparisionOperation = require('./newFile');
+
+describe("Comparision tests", () => {
+    test('3>2 should return true', () => {
+        // arrange and act
+        var result = comparisionOperation.greater(3, 2)
+
+        // assert
+        expect(result).toBe(true);
+    });
+
+    test('3>12 should return false', () => {
+        // arrange and act
+        var result = comparisionOperation.greater(3, 12)
+
+        // assert
+        expect(result).toBe(false);
+    });
+
+    test('3>3 should return false', () => {
+        // arrange and act
+        var result = comparisionOperation.greater(3, 3)
+
+        // assert
+        expect(result).toBe(false);
+    });
+})
