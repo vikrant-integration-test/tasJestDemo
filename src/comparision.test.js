@@ -1,4 +1,4 @@
-const comparisionOperation = require('./newFile');
+const comparisionOperation = require('./comparision');
 
 describe("Comparision tests", () => {
     test('3=3 should return true', () => {
