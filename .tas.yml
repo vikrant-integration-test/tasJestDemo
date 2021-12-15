@@ -9,5 +9,5 @@ preMerge:
 preRun:
     - npm install                   # Mention pre-run steps here
 postRun:
-    - node --version                # Mention post-run steps here
+    - node --version               
 version: 2.0
