@@ -1,3 +1,4 @@
 # tasJestDemo
 
-Jest unit testing framework
+Read me updates
+Jest unit testing framework.
