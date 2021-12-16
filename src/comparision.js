@@ -5,6 +5,10 @@ const comparisionOperation = {
 
     greater: function (a, b) {
         return a > b;
+    },
+
+    greater: function (a, b) {
+        return a > b;
     }
 }
 
