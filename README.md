@@ -1,3 +1,3 @@
 # tasJestDemo
 
-Jest unit testing framework
+JEST unit testing framework
