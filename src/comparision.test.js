@@ -8,4 +8,12 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(true);
     });
+
+    test('4=3 should return false', () => {
+        // arrange and act
+        var result = comparisionOperation.equal(4, 3)
+
+        // assert
+        expect(result).toBe(false);
+    });
 })
