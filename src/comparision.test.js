@@ -16,4 +16,12 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(false);
     });
+
+    test('4>3 should return true', () => {
+        // arrange and act
+        var result = comparisionOperation.greater(4, 3)
+
+        // assert
+        expect(result).toBe(true);
+    });
 })
