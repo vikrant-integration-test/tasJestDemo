@@ -7,8 +7,8 @@ const comparisionOperation = {
         return a > b;
     },
 
-    less: function (a, b) {
-        return a < b;
+    less: function (a, d) {
+        return a < d;
     }
 }
 
