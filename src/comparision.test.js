@@ -37,7 +37,6 @@ describe("Comparision tests", () => {
         // arrange and act
         var result = comparisionOperation.greater(4, 4)
 
-        // assert
         expect(result).toBe(false);
     });
 
