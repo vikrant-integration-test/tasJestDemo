@@ -5,7 +5,7 @@ test("Retuns about-us for english language", () => {
     expect(getAboutUsLink("en-US")).toBe("/about-us");
 });
 
-test("Return s about-us for spanish language", () => {
+test("Returns about-us for spanish language", () => {
     expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
 
