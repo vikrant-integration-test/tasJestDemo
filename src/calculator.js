@@ -16,4 +16,5 @@ function getAboutUsLink(language) {
   }
   return '';
 }
+
 module.exports = getAboutUsLink;
