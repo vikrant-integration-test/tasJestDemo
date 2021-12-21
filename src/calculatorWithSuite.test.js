@@ -9,7 +9,7 @@ describe('Test Language code', function () {
         expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
     });
 
-    it("Fail case for english language", () => {
+    it.skip("Fail case for english language", () => {
         expect(getAboutUsLink("en-Uws")).toBe("/about-us");
     });
 
