@@ -1,3 +1,3 @@
 # tasJestDemo
 
-Jest unit testing framework for Testing
+Jest unit testing framework
