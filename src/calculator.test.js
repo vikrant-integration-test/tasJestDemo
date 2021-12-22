@@ -23,6 +23,6 @@ test("Fail a test", () => {
     expect(getAboutUsLink("es-ES")).toBe("");
 });
 
-// test("Fail a test", () => {
-//     expect(getAboutUsLink("es-ES")).toBe("");
-// });
+test("Account added by arjun-rathi", () => {
+    expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
+});
