@@ -49,4 +49,12 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(false);
     });
+    
+    test('new test added by arjun-rathi', () => {
+        // arrange and act
+        var result = comparisionOperation.less(2, 3)
+
+        // assert
+        expect(result).toBe(true);
+    });
 })
