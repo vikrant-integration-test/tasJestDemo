@@ -1,7 +1,8 @@
 ---
 framework: jest
-# blocklist:
-#   - "src/calculator.test.js##Blacklist a test"
+blocklist:
+  - "src/calculator.test.js##Blacklist a test"
+  - "src/newFileTest.test.js##Comparision tests"
 licenseTier: xsmall
 postMerge: 
   pattern: 
