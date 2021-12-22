@@ -44,7 +44,6 @@ describe("Comparision tests", () => {
         // arrange and act
         var result = comparisionOperation.less(4, 12)
 
-        // assert
         expect(result).toBe(true);
     });
 
