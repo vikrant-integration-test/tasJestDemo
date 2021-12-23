@@ -5,7 +5,6 @@ describe("Comparision tests", () => {
         // arrange and act
         var result = comparisionOperation.greater(3, 2)
 
-        // assert
         expect(result).toBe(true);
     });
 
