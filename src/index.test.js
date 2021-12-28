@@ -18,7 +18,7 @@ describe("Calculator tests", () => {
     });
     
     test('product 3 * 2 should return 6', () => {
-        // arrange and act
+
         var result = mathOperations.product(3, 2)
 
         expect(result).toBe(6);
