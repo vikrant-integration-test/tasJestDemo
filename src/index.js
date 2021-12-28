@@ -9,8 +9,8 @@ const mathOperations = {
     product: function (a, b) {
         return a * b
     },
-    division: function (a, b) {
-        return a / b
+    division: function (a, d) {
+        return a / d
     }
 }
 
