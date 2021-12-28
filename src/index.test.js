@@ -21,7 +21,6 @@ describe("Calculator tests", () => {
         // arrange and act
         var result = mathOperations.product(3, 2)
 
-        // assert
         expect(result).toBe(6);
     });
 })
