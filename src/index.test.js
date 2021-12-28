@@ -8,4 +8,19 @@ describe("Calculator tests", () => {
         // assert
         expect(result).toBe(3);
     });
+    
+    test('difference 3 - 2 should return 1', () => {
+        // arrange and act
+        var result = mathOperations.diff(3, 2)
+
+        // assert
+        expect(result).toBe(1);
+    });
+    
+    test('product 3 * 2 should return 6', () => {
+        // arrange and act
+        var result = mathOperations.product(3, 2)
+
+        expect(result).toBe(6);
+    });
 })
