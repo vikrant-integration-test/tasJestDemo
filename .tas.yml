@@ -1,7 +1,7 @@
 ---
 framework: jest
-blocklist:
-  - "./src/newFileTest.test.js##Comparision tests"
+# blocklist:
+#   - "./src/newFileTest.test.js##Comparision tests"
 licenseTier: xsmall
 postMerge: 
   pattern: 
