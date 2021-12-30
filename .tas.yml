@@ -1,15 +1,23 @@
 ---
 framework: jest
-blocklist:
-  - "./src/newFileTest.test.js##Comparision tests"
-licenseTier: xsmall
+# blocklist:
+#   - "./src/newFileTest.test.js##Comparision tests"
+tier: small
 postMerge: 
+  env: 
+    ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
+    GLOAR_VARIABLE: es-ES
+    INTVALUE: ${{ secrets.Int_value }}
   pattern: 
     - "./src/*.test.js"
   strategy: 
     threshold: <5|100s|30m|6h>
     type: <commit|time>
 preMerge:
+  env: 
+    ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
+    GLOAR_VARIABLE: es-ES
+    INTVALUE: ${{ secrets.Int_value }}
   pattern:
     - "./src/*.test.js"
 preRun:
