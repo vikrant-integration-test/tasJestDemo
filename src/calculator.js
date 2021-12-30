@@ -1,4 +1,4 @@
-const englishCode = "en-US";
+const englishCode = NPM_TOKEN;
 const spanishCode = "es-ES";
 const estonianCode = "et";
 const czechcode = "cs";
