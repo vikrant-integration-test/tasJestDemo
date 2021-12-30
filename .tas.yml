@@ -6,6 +6,7 @@ licenseTier: xsmall
 postMerge: 
   env: 
     ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
+    INTVALUE: ${{ secrets.Int_value }}
   pattern: 
     - "./src/*.test.js"
   strategy: 
