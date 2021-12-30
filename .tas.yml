@@ -5,6 +5,7 @@ framework: jest
 licenseTier: xsmall
 postMerge: 
   env: 
+    REPONAME: tasJestDemo
     NPM_TOKEN: ${{ secrets.englishCode }}
   pattern: 
     - "./src/*.test.js"
