@@ -1,7 +1,7 @@
 const { add, mul, sub, div } = require('./arith');
 
 test('2 + 3 = 5', () => {
-  expect(add(2, parseInt(process.env.INTVALUE))).toBe(5);
+  expect(add(2, parseInt(process.env.INTVALUE))).toBe(6);
 });
 
 test('3 * 4 = 12', () => {
