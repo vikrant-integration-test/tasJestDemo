@@ -5,7 +5,7 @@ framework: jest
 licenseTier: xsmall
 postMerge: 
   env: 
-    NPM_TOKEN: ${{ secrets.englishCode }}
+    ENGLISH_CODE: ${{ secrets.englishCode }}
   pattern: 
     - "./src/*.test.js"
   strategy: 
