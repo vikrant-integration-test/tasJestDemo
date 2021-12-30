@@ -4,6 +4,8 @@ framework: jest
 #   - "./src/newFileTest.test.js##Comparision tests"
 licenseTier: xsmall
 postMerge: 
+  env: 
+    NPM_TOKEN: ${{ secrets.englishCode }}
   pattern: 
     - "./src/*.test.js"
   strategy: 
