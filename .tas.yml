@@ -2,7 +2,7 @@
 framework: jest
 # blocklist:
 #   - "./src/newFileTest.test.js##Comparision test"
-tier: small
+tier: large
 postMerge: 
   env: 
     ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
