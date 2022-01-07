@@ -3,7 +3,6 @@ framework: jest
 #   - "./src/newFileTest.test.js##Comparision test"
 tier: large
 postMerge:
-  isActive: false
   pattern: 
     - "./src/*.test.js"
   # strategy:
