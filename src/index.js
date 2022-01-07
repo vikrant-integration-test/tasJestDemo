@@ -12,4 +12,5 @@ const mathOperations = {
         return a / d
     }
 }
+
 module.exports = mathOperations
