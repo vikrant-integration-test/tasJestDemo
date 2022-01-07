@@ -5,9 +5,6 @@ tier: large
 postMerge:
   pattern: 
     - "./src/*.test.js"
-  strategy:
-    threshold: 4
-    name: after_n_commits
   env:
     GLOAR_VARIABLE: es-ES
     ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
@@ -15,6 +12,9 @@ postMerge:
 preMerge:
   pattern:
     - "./src/*.test.js"
+  strategy:
+    threshold: 4
+    name: after_n_commits
 preRun:
      command:
         - npm install
