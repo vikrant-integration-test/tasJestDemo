@@ -12,9 +12,6 @@ postMerge:
 preMerge:
   pattern:
     - "./src/*.test.js"
-  strategy:
-    threshold: 4
-    name: after_n_commits
 preRun:
      command:
         - npm install
