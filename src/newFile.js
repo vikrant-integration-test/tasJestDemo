@@ -6,4 +6,5 @@ const comparisionOperation = {
         return a < b;
     }
 }
+
 module.exports = comparisionOperation
