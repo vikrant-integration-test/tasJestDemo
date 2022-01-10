@@ -20,5 +20,5 @@ preRun:
         - npm install
 postRun:
      command:
-        - npm run v
+        - node --version
 version: 1.0
