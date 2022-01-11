@@ -10,7 +10,7 @@ postMerge:
     ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
     INTVALUE: ${{ secrets.Int_value }}
   strategy:
-    threshold: 4
+    threshold: 1
     name: after_n_commits
 preMerge:
   pattern:
