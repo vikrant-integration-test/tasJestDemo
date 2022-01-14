@@ -1,7 +1,7 @@
 framework: jest
 blocklist:
   - "./src/newFileTest.test.js##Comparision tests"
-tier: medium
+tier: small
 postMerge:
   pattern: 
     - "./src/*.test.js"
@@ -23,4 +23,3 @@ postRun:
      command:
         - node --version
 version: 1.0
-
