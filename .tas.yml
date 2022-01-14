@@ -9,9 +9,6 @@ postMerge:
     GLOAR_VARIABLE: es-ES
     ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
     INTVALUE: ${{ secrets.Int_value }}
-  strategy:
-    threshold: 1
-    name: after_n_commits
 preMerge:
   pattern:
     - "./src/*.test.js"
