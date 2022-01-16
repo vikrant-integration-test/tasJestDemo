@@ -1,4 +1,5 @@
 framework: jest
+tier: large
 blocklist:
   - "./src/newFileTest.test.js##Comparision tests"
 postMerge:
