@@ -6,7 +6,6 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(true);
     });
-
     
     test.skip('4=3 should return false', () => {
         // arrange and act
