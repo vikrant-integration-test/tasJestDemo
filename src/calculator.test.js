@@ -21,9 +21,9 @@ test("Fail a test -1", () => {
 //     expect(getAboutUsLink("es-ES")).toBe("");
 // });
 
-// test("Fail a test -2", () => {
-//     expect(getAboutUsLink("es-ES")).toBe("");
-// });
+test("Fail a test -2", () => {
+    expect(getAboutUsLink("es-ES")).toBe("");
+});
 
 test("Account added by arjun-rathi", () => {
     expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
