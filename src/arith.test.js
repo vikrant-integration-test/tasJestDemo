@@ -16,3 +16,6 @@ test('8 / 4 = 2', () => {
   expect(div(8, 4)).toBe(2);
 });
 
+test('8 / 8 = 1', () => {
+  expect(div(8, 8)).toBe(1);
+});
