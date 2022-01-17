@@ -5,3 +5,7 @@ const div = (a, b) => a / b;
 const mod = (a, b) => a % b;
 
 module.exports = { add, mul, sub, div, mod };
+
+
+
+
