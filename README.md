@@ -2,6 +2,3 @@
 
 Jest unit testing framework.
 
-
-
-
