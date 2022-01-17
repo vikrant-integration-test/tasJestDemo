@@ -1,15 +1,23 @@
----
-framework: jest                  # Mention the testing framework mocha or jest
-blocklist:
-  - "src/calculatorWithSuite.test.js##Test Language code"
+framework: jest
+tier: large
 postMerge:
-    pattern:
-    - "./src/*.test.js"            # Glob pattern to path where tests that should run post-merge are written
+  pattern: 
+    - "./src/*.test.js"
+  env:
+    GLOAR_VARIABLE: es-ES
+    ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
+    INTVALUE: ${{ secrets.Int_value }}
 preMerge:
-    pattern:
-    - "./src/*.test.js"              # Glob pattern to path where tests that should run pre-merge are written
+  pattern:
+    - "./src/*.test.js"
+  env:
+    GLOAR_VARIABLE: es-ES
+    ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
+    INTVALUE: ${{ secrets.Int_value }}
 preRun:
-    - npm install                   # Mention pre-run steps here
+     command:
+        - npm install
 postRun:
-    - node --version               
-version: 2.0
+     command:
+        - node --version
+version: 1.0
