@@ -71,4 +71,20 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(false);
     });
+    
+    test('1 4<4 should return false', () => {
+        // arrange and act
+        var result = comparisionOperation.less(4, 4)
+
+        // assert
+        expect(result).toBe(false);
+    });
+    
+    test('2 4<4 should return false', () => {
+        // arrange and act
+        var result = comparisionOperation.less(4, 4)
+
+        // assert
+        expect(result).toBe(false);
+    });
 })
