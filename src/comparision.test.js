@@ -63,4 +63,12 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(false);
     });
+
+    test('Add new 4<4 should return false', () => {
+        // arrange and act
+        var result = comparisionOperation.less(4, 4)
+
+        // assert
+        expect(result).toBe(false);
+    });
 })
