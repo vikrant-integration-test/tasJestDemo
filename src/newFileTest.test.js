@@ -51,7 +51,6 @@ describe("Comparision tests", () => {
     test('new test added by arjun-rathi', () => {
         // arrange and act
         var result = comparisionOperation.less(2, 3)
-
         // assert
         expect(result).toBe(true);
     });
