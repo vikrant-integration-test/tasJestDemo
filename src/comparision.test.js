@@ -93,11 +93,11 @@ describe("Comparision tests", () => {
         expect(result).toBe(true);
     });
     
-    test('5<=7 should return true', () => {
-        // arrange and act
-        var result = comparisionOperation.lessThanEqual(5, 7)
+    // test('5<=7 should return true', () => {
+    //     // arrange and act
+    //     var result = comparisionOperation.lessThanEqual(5, 7)
 
-        // assert
-        expect(result).toBe(true);
-    });
+    //     // assert
+    //     expect(result).toBe(true);
+    // });
 })
