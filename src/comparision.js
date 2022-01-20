@@ -15,6 +15,4 @@ const comparisionOperation = {
         return a <= d;
     }
 }
-
-
 module.exports = comparisionOperation
