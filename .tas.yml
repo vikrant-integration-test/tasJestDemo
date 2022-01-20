@@ -1,7 +1,7 @@
 framework: jest
 tier: small
 # blocklist:
-#   - "./src/newFileTest.test.js##Comparision test"
+#   - "./src/newFileTest.test.js##Comparision tests"
 postMerge:
   pattern: 
     - "./src/*.test.js"
