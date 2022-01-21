@@ -25,11 +25,10 @@ describe('Test Language code_Expanded name to check for test suite_expand', func
         expect(getAboutUsLink("cs")).toBe("/o nás");
     });
 
-    // it("Fail czech language", () => {
-    //     expect(getAboutUsLink("cs")).toBe("/o nas");
-    // });
+    it("Fail czech language", () => {
+        expect(getAboutUsLink("cs")).toBe("/o nas");
+    });
 
-    
     it("added new test newBranch wtestReturns about-us for czech language", () => {
         expect(getAboutUsLink("cs")).toBe("/o nás");
     });
