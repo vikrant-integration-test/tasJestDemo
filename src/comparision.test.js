@@ -100,4 +100,8 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(true);
     });
+
+    it("Returns about-us for spanish language_Returns about-us for spanish language", () => {
+        expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
+    });
 })
