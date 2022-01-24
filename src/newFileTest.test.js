@@ -17,7 +17,7 @@ describe.skip("Part of pareent_suite | Comparision tests 1", () => {
     });
 })
 
-describe("Part of pareent_suite | Comparision tests 2", () => {
+describe.skip("Part of pareent_suite | Comparision tests 2", () => {
     test('3>3 should return false', () => {
         // arrange and act
         var result = comparisionOperation.greater(3, 3)
