@@ -1,6 +1,7 @@
 const comparisionOperation = require('./newFile');
 
-describe("Comparision tests", () => {
+describe("Parent suite", () => {
+describe.skip("Part of pareent_suite | Comparision tests", () => {
     test('3>2 should return true', () => {
         var result = comparisionOperation.greater(3, 2)
 
@@ -14,7 +15,9 @@ describe("Comparision tests", () => {
         // assert
         expect(result).toBe(false);
     });
+})
 
+describe.skip("Part of pareent_suite | Comparision tests", () => {
     test('3>3 should return false', () => {
         // arrange and act
         var result = comparisionOperation.greater(3, 3)
@@ -56,3 +59,4 @@ describe("Comparision tests", () => {
     });
 })
 
+})
