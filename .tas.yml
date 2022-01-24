@@ -15,9 +15,9 @@ postMerge:
 #     GLOAR_VARIABLE: es-ES
 #     ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
 #     INTVALUE: ${{ secrets.Int_value }}
-# preRun:
-#      command:
-#         - npm install
+preRun:
+     command:
+        - npm install
 # postRun:
 #      command:
 #         - node --version
