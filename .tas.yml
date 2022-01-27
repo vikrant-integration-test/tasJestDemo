@@ -15,6 +15,9 @@ preMerge:
     GLOAR_VARIABLE: es-ES
     ENGLISHCODE: ${{ secrets.ENGLISHCODE }}
     INTVALUE: ${{ secrets.Int_value }}
+postRun:
+     command:
+        - node --version
 nodeVersion: 14.17.2
 version: 1.0 
 
