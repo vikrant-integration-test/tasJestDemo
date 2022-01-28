@@ -1,4 +1,4 @@
-const { add, mul, sub, div } = require('./arith');
+const { add, mul, sub, div, modu } = require('./arith');
 
 test('2 + 3 = 5', () => {
   expect(add(2, parseInt(process.env.INTVALUE))).toBe(5);
@@ -18,4 +18,8 @@ test('8 / 4 = 2', () => {
 
 test('8 / 8 = 1', () => {
   expect(div(8, 8)).toBe(1);
+});
+
+test('8 % 8 = 0', () => {
+  expect(modu(8, 8)).toBe(0);
 });
