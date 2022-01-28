@@ -1,6 +1,8 @@
 framework: jest
-# blocklist:
-#   - "./src/newFileTest.test.js##Comparision tests"
+blocklist:
+  - "./src/newFileTest.test.js##Comparision tests"
+  - "./src/calculator.test.js##Retuns about-us for english language"
+  - "./src/arith.test.js##Test Language code_Expanded name to check for test suite_expand##Returns about-us for spanish language_Returns about-us for spanish language"
 postMerge:
   pattern: 
     - "./src/*.test.js"
