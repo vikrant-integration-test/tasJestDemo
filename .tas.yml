@@ -1,6 +1,6 @@
 framework: jest
 blocklist:
-  - "./src/newFileTest.test.js##Comparision tests"
+  - "./src/newFileTest.test.js##Part of pareent_suite | Comparision tests 1##3>2 should return true"
   - "./src/calculator.test.js##Retuns about-us for english language"
   - "./src/arith.test.js##Test Language code_Expanded name to check for test suite_expand##Returns about-us for spanish language_Returns about-us for spanish language"
 postMerge:
