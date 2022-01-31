@@ -19,4 +19,5 @@ preMerge:
 postRun:
   command:
     - node --version # Mention postRun steps here.
+nodeVersion: 14.17.2
 version: 1.0
