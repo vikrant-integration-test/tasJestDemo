@@ -11,7 +11,7 @@ function getAboutUsLink(language) {
       return '/acerca-de';
     case estonianCode.toLowerCase():
       return '/meist';
-    case czechCode.toLowerCase():
+    case czechcode.toLowerCase():
       return '/o nás';
   }
   return '';
