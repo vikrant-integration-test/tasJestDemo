@@ -1,7 +1,7 @@
-framework: jest      # Mention the testing framework here.
+framework: jest     
 preRun:
   command:
-    - npm ci          # Mention preRun steps here.
+    - npm ci          
 postMerge:
   pattern: 
     - "./src/*.test.js"
@@ -18,6 +18,7 @@ preMerge:
     INTVALUE: ${{ secrets.Int_value }}
 postRun:
   command:
-    - node --version # Mention postRun steps here.
+    - node --version
 nodeVersion: 14.17.2
 version: 1.0
+
