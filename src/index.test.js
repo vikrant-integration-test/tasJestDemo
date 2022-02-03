@@ -19,7 +19,6 @@ describe("Calculator tests", () => {
     
     test('test added by testtas9812 product 3 * 2 should return 6', () => {
         var result = mathOperations.product(3, 2)
-
         expect(result).toBe(6);
     });
 
