@@ -8,6 +8,7 @@ describe("Calculator tests", () => {
     
     test('difference 3 - 2 should return 1', () => {
         var result = mathOperations.diff(3, 2)
+        
         expect(result).toBe(1);
     });
 
