@@ -3,7 +3,6 @@ const mathOperations = require('./index');
 describe("Calculator tests", () => {
     test('adding 1 + 2 should return 3', () => {
         var result = mathOperations.sum(1, 2)
-        // assert
         expect(result).toBe(3);
     });
     
