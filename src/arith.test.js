@@ -4,6 +4,7 @@ test('2 + 3 = 5', () => {
   expect(add(2, parseInt(process.env.INTVALUE))).toBe(5);
 });
 
+
 test('3 * 4 = 12', () => {
   expect(mul(3, 4)).toBe(12);
 });
