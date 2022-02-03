@@ -13,7 +13,6 @@ test.skip("Skip a test", () => {
     expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
 
-
 // test("Fail a test -1", () => {
 //     expect(getAboutUsLink("es-ES")).toBe("");
 // });
