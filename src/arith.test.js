@@ -24,6 +24,8 @@ test('8 % 8 = 0', () => {
   expect(modu(8, 8)).toBe(0);
 });
 
+
+
 test('10 % 8 = 0', () => {
   expect(modu(10, 8)).toBe(2);
 });
