@@ -29,4 +29,3 @@ test("Fail a test -2", () => {
 test("Account added by arjun-rathi", () => {
     expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
-
