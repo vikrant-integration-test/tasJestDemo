@@ -1,5 +1,7 @@
 const getAboutUsLink = require("./calculator");
 
+
+
 test("Retuns about-us for english language", () => {
     expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
 });
