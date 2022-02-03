@@ -20,8 +20,6 @@ test('8 / 8 = 1', () => {
   expect(div(8, 8)).toBe(1);
 });
 
-
-
 test('8 % 8 = 0', () => {
   expect(modu(8, 8)).toBe(0);
 });
