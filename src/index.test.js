@@ -20,5 +20,4 @@ describe("Calculator tests", () => {
         var result = mathOperations.product(3, 2)
         expect(result).toBe(6);
     });
-
 })
