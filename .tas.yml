@@ -20,5 +20,4 @@ postRun:
   command:
     - node --version
 nodeVersion: 14.17.2
-strict: true
 version: 1.0
