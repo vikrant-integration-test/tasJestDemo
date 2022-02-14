@@ -20,6 +20,6 @@ postRun:
   command:
     - node --version
 nodeVersion: 14.17.2
-# parallelism: 7
+# parallelism: 6
 version: 1.0
 containerImage: "synapseprivatepullstagetaspoc.azurecr.io/nucleus_private:demo"
