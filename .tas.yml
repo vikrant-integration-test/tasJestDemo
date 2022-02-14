@@ -1,4 +1,4 @@
-framework: jesti     
+framework: jest    
 preRun:
   command:
     - npm ci          
