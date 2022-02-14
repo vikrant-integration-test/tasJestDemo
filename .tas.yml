@@ -22,4 +22,4 @@ postRun:
 nodeVersion: 14.17.2
 # parallelism: 7
 version: 1.0
-
+containerImage: "synapseprivatepullstagetaspoc.azurecr.io/nucleus_private:demo"
