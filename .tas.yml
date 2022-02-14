@@ -1,5 +1,5 @@
 framework: jest     
-preRun:
+# preRun:
   command:
     - npm ci          
 postMerge:
