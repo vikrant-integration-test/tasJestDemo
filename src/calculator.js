@@ -3,6 +3,8 @@ const spanishCode = "es-ES";
 const estonianCode = "et";
 const czechcode = "cs";
 
+
+
 function getAboutUsLink(language) {
   switch (language.toLowerCase()) {
     case englishCode.toLowerCase():
