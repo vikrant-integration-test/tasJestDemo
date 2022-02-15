@@ -5,6 +5,10 @@ const czechcode = "cs";
 
 
 
+
+
+
+// some comment
 function getAboutUsLink(language) {
   switch (language.toLowerCase()) {
     case englishCode.toLowerCase():
