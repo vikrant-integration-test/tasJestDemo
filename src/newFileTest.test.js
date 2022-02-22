@@ -43,13 +43,13 @@ describe("Part of pareent_suite | Comparision tests 2", () => {
         expect(result).toBe(true);
     });
 
-    test('3<3 should return false', () => {
-        // arrange and act
-        var result = comparisionOperation.less(3, 3)
+//     test('3<3 should return false', () => {
+//         // arrange and act
+//         var result = comparisionOperation.less(3, 3)
 
-        // assert
-        expect(result).toBe(false);
-    });
+//         // assert
+//         expect(result).toBe(false);
+//     });
     
     
     test('new test added by arjun-rathi', () => {

@@ -1,7 +1,13 @@
 const { add, mul, sub, div, modu } = require('./arith');
 
+
+
 test('2 + 3 = 5', () => {
   expect(add(2, parseInt(process.env.INTVALUE))).toBe(5);
+});
+
+test('4 + 1 = 5 manmeet ', () => {
+  expect(add(4, 1)).toBe(5);
 });
 
 test('3 * 4 = 12', () => {
@@ -25,6 +31,10 @@ test('8 % 8 = 0', () => {
 });
 
 test('10 % 8 = 0', () => {
-  
   expect(modu(10, 8)).toBe(2);
 });
+
+test('new 10 % 8 = 0', () => {
+  expect(modu(10, 8)).toBe(2);
+});
+
