@@ -8,7 +8,6 @@ describe('Test Language code_Expanded name to check for test suite_expand', func
     it("Returns about-us for spanish language_Returns about-us for spanish language", () => {
         expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
     });
-
     
     // it("Fail case for english language", () => {
     //     expect(getAboutUsLink("en-Uws")).toBe("/about-us");
@@ -29,9 +28,14 @@ describe('Test Language code_Expanded name to check for test suite_expand', func
     // it("Fail czech language", () => {
     //     expect(getAboutUsLink("cs")).toBe("/o nas");
     // });
-
     
     it("added new test newBranch wtestReturns about-us for czech language", () => {
         expect(getAboutUsLink("cs")).toBe("/o nás");
+    });
+});
+
+describe('By arjun-rathi suitwe', function () {
+    it("Returns about-us for english language", () => {
+        expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
     });
 });
