@@ -3,7 +3,7 @@ blocklist:
 #   - "./src/newFileTest.test.js##Parent suite##Part of pareent_suite | Comparision tests 1##3>2 should return true"
   - "./src/calculator.test.js##Retuns about-us for english language"
 #   - "./src/calculatorWithSuite.test.js##Test Language code_Expanded name to check for test suite_expand"
-  preRun:
+preRun:
   command
     - npm ci          
 postMerge:
