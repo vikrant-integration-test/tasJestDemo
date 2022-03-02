@@ -6,5 +6,3 @@ const mod = (a, b) => a % b;
 const modu = (a, d) => a % d;
 
 module.exports = { add, mul, sub, div, mod, modu };
-
-
