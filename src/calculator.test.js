@@ -8,7 +8,7 @@ test("Returns about-us for spanish language", () => {
     expect(getAboutUsLink(process.env.GLOAR_VARIABLE)).toBe("/acerca-de");
 });
 
-test.skip("Skip a test", () => {
+test.todo("Skip a test", () => {
     //comment
     expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
