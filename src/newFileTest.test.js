@@ -58,5 +58,11 @@ describe("Part of pareent_suite | Comparision tests 2", () => {
         // assert
         expect(result).toBe(true);
     });
+    
+    test('should should detect multiple of 3', () => {
+        const number = Math.floor(Math.random() * 10)
+        const result = number % 3
+        expect(result).toBe(0);
+    });
 })
 })
