@@ -2,6 +2,7 @@
 framework: jest 
 blocklist:
     - "./src/newFileTest.test.js##Parent suite##Part of pareent_suite | Comparision tests 1"
+    - "./src/newFileTest.test.js##Parent suite##Part of pareent_suite | Comparision tests 2"
 preRun:
   command:
     - npm ci          
